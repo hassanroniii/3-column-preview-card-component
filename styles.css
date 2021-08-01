@@ -1,0 +1,125 @@
+body {
+  background-color: #F2F2F2;
+  padding-top: 150px;
+}
+
+img{
+  margin-bottom: 20px;
+}
+
+h1 {
+  color: #F2F2F2;
+  font-family: 'Big Shoulders Display', cursive;
+  margin-bottom: 50px;
+  font-weight: 700px;
+}
+
+p {
+  color: #F2F2F2;
+  font-family: 'Lexend Deca', sans-serif;
+  line-height: 2;
+  font-size: 15px;
+  font-weight: 400px;
+  width: 70%;
+  margin-bottom: 40px;
+}
+
+a{
+  text-decoration: none;
+  font-family: 'Oswald', sans-serif;
+}
+
+.sedansDiv {
+  background-color: #E28525;
+  display: inline-block;
+  height: 420px;
+  width: 300px;
+  padding: 50px;
+  border-top-left-radius: 10px;
+  border-bottom-left-radius: 10px;
+  position: relative;
+  left: 4px;
+  border: 0 solid;
+  margin-left: 21rem;
+}
+
+.suvsDiv {
+  background-color: #016972;
+  display: inline-block;
+  height: 420px;
+  width: 300px;
+  padding: 50px;
+  position: relative;
+  border: 0 solid;
+}
+
+.luxuryDiv {
+  background-color: #00403F;
+  display: inline-block;
+  height: 420px;
+  width: 300px;
+  padding: 50px;
+  border-top-right-radius: 10px;
+  border-bottom-right-radius: 10px;
+  position: relative;
+  right: 4px;
+  border: 0 solid;
+}
+
+.footer-text {
+  color: black;
+  margin-top: 180px;
+  position: relative;
+  width:600px;
+  left: 720px;
+}
+
+.btn {
+   background: #F2F2F2;
+   background-image: -webkit-linear-gradient(top, #F2F2F2, #F2F2F2);
+   background-image: -moz-linear-gradient(top, #F2F2F2, #F2F2F2);
+   background-image: -ms-linear-gradient(top, #F2F2F2, #F2F2F2);
+   background-image: -o-linear-gradient(top, #F2F2F2, #F2F2F2);
+   background-image: -webkit-gradient(to bottom, #F2F2F2, #F2F2F2);
+   -webkit-border-radius: 37px;
+   -moz-border-radius: 37px;
+   border-radius: 37px;
+   height: 20px;
+   color: #E28525;
+   font-family: 'Lexend Deca', sans-serif;
+   width: 130px;
+   font-size: 15px;
+   padding: 20px;
+   border: solid #F2F2F2 2px;
+   text-decoration: none;
+   display: block;
+   cursor: pointer;
+   text-align: center;
+}
+
+.btn:hover {
+   background: #E28525;
+   border: solid #F2F2F2 2px;
+   -webkit-border-radius: 37px;
+   -moz-border-radius: 37px;
+   border-radius: 37px;
+   text-decoration: none;
+   color: #F2F2F2;
+}
+
+#btn2 {
+  color: #016972;
+}
+
+#btn2:hover {
+  background: #016972;
+  color: #F2F2F2;
+}
+#btn3 {
+  color: #00403F;
+}
+
+#btn3:hover {
+  background: #00403F;
+  color: #F2F2F2;
+}
